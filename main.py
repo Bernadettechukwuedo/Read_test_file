@@ -18,9 +18,9 @@ def count_words():
     count = {}
     for i in split_text:
         if i in count:
-            count[1] += 1
+            count[i] += 1
         else:
-            count[1] = 1
+            count[i] = 1
     return count
 
 print(count_words())
